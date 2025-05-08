@@ -6,9 +6,8 @@ from PIL import Image
 from io import BytesIO
 import uuid
 
-GOOGLE_API_KEY = os.getenv("AIzaSyC9-vsBPIgub5wmC0EzwDVt1YrvcGIt2fo")
 
-genai.configure(api_key=GOOGLE_API_KEY)
+genai.configure(api_key=AIzaSyC9-vsBPIgub5wmC0EzwDVt1YrvcGIt2fo)
 
 def generate_image(prompt: str) -> str:
     model = genai.GenerativeModel("gemini-pro-vision")
