@@ -3,7 +3,7 @@ import streamlit as st
 import google.generativeai as genai
 import os
 
-GOOGLE_API_KEY = os.getenv("GEMINI_API_KEY")
+GOOGLE_API_KEY = os.getenv("AIzaSyC9-vsBPIgub5wmC0EzwDVt1YrvcGIt2fo")
 genai.configure(api_key=GOOGLE_API_KEY)
 
 def company_chat_interface():
