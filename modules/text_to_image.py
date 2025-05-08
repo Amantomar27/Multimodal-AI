@@ -7,7 +7,7 @@ from io import BytesIO
 import uuid
 
 
-genai.configure(api_key='AIzaSyC9-vsBPIgub5wmC0EzwDVt1YrvcGIt2fo')
+genai.configure(api_key="AIzaSyC9-vsBPIgub5wmC0EzwDVt1YrvcGIt2fo")
 
 def generate_image(prompt: str) -> str:
     model = genai.GenerativeModel("gemini-pro-vision")
